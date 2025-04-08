@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'droid';
+    src: url('idroid.otf') format(opentype);
+}
+body{
+   font-weight: normal;
+   background-color: #a6f6ca;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(107, 188, 130), rgb(0, 87, 0));
+   
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+nav > a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 1s;
+    border-radius: 5px;
+}
+nav > a:hover{
+    background-color: lightgreen;
+    text-decoration: none;
+}
+.androidfont{
+    font-family:'droid';
+    text-align:left ;
+    background-image: linear-gradient(to right, rgb(191, 241, 191),white);
+    color: green;
+}
+main{
+  background-color: white;
+  min-width: 320px;
+  max-width:800px;
+  
+  margin: auto;
+  
+  text-align: justify;
+}
+section{
+    margin: auto;
+  padding: 20px;
+  text-align: justify;
+}
+.linkex{
+    color: rgb(0, 106, 16);
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+#parahea{
+    text-align: center;
+    color: white;
+}
+iframe{
+    border: darkgreen;
+    width: 100%;
+   
+}
+img{
+    width: 100%;
+}
+.bugdroid{
+    height: 300px;
+}
+aside{
+    background-color: #c5ebd6 ;
+    margin: 20px;
+    border-radius: 8px;
+    height: 500px;
+}
+#H3per{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+#pper{
+    margin: auto;
+    text-align: center;
+}
+footer{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
